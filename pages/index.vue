@@ -5,6 +5,7 @@
     <Banner />
     <FeatureButton :duration="duration" />
 
+    <ContactInfo />
     <BrandLogo />
     <InfoFooter />
     <Footer :items="navItems" />
@@ -24,6 +25,7 @@ import Logo from "~/components/Logo.vue"
 import NavBar from "~/components/NavBar.vue"
 import Banner from "~/components/Banner.vue"
 import FeatureButton from "~/components/FeatureButton.vue"
+import ContactInfo from "~/components/ContactInfo.vue"
 import BrandLogo from "~/components/BrandLogo.vue"
 import InfoFooter from "~/components/InfoFooter.vue"
 import Footer from "~/components/Footer.vue"
@@ -35,6 +37,7 @@ export default {
     NavBar,
     Banner,
     FeatureButton,
+    ContactInfo,
     BrandLogo,
     InfoFooter,
     Footer,
