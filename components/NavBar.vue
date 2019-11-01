@@ -11,7 +11,7 @@
     <nav class="navbar nav-shadow is-fixed-top is-hidden-desktop is-hidden-tablet-only" role="navigation" aria-label="main navigation" style="height:64px;">
       <div class="navbar-brand">
         <a style="height:64px;padding:8px 16px;">
-          <img src="~/assets/logo/logo.png" style="height:48px;" />
+          <img src="logo/logo.png" style="height:48px;" />
         </a>
 
         <a v-on:click="onClickMenu" role="button" :class="`navbar-burger ${menuClassActive}`" aria-label="menu" aria-expanded="true" style="height:64px;">
