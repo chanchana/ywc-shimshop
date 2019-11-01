@@ -38,7 +38,6 @@ import ContactInfo from "~/components/ContactInfo.vue"
 import BrandLogo from "~/components/BrandLogo.vue"
 import InfoFooter from "~/components/InfoFooter.vue"
 import Footer from "~/components/Footer.vue"
-import axios from "axios"
 
 export default {
   components: {
@@ -63,8 +62,8 @@ export default {
   },
   methods: {
     fetchData() {
-      axios.get("https://panjs.com/ywc.json").then(res => {
-        this.resData = res.data
+      this.$axios.$get("https://panjs.com/ywc.json").then(res => {
+        this.resData = res
         this.navItems = this.resData.navbarItems
         this.duration = this.resData.duration
         this.detailText = this.resData.detail
