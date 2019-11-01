@@ -78,7 +78,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
 .custom-font {
   font-family: 'Prompt', sans-serif;
 }
