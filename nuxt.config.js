@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/ywc-shimshop/'
-  }
-} : {}
-
 export default {
   mode: 'universal',
   /*
@@ -21,7 +15,7 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Prompt&display=swap' }
     ]
   },
-  routerBase,
+  router: { base: '/ywc-shimshop/' },
   /*
   ** Customize the progress-bar color
   */
