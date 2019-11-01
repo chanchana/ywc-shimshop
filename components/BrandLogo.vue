@@ -10,9 +10,9 @@
     </div>
 
     <!-- Mobile -->
-    <div class="is-hidden-desktop is-hidden-tablet-only" style="padding:70px 70px">
+    <div class="is-hidden-desktop is-hidden-tablet-only" style="padding:70px 30px">
       <div v-for="i in [0, 1]" class="columns is-mobile" style="margin:0px">
-        <div v-for="logo in logos.slice(0 + (i * 3), 3 + (i * 3))" class="column is-4" style="padding:0px 36px">
+        <div v-for="logo in logos.slice(0 + (i * 3), 3 + (i * 3))" class="column is-4" style="padding:0px 24px">
           <a :href="logo.href">
             <img class="logo" :src="`brand-logo/${logo.name}.png`">
           </a>

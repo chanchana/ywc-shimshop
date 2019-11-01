@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="columns" style="padding:80px 80px">
+    <div class="columns" style="padding:80px 50px">
       <div v-for="contact in contacts" class="column" style="padding:0px 10px;text-align:center">
         <a :href="contact.href">
           <img class="logo" :src="`contact-logo/${contact.name}.png`">

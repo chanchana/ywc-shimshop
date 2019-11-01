@@ -21,7 +21,7 @@ export default {
       infos: [
         {
           title: 'ข้อมูลลงทะเบียนประชาชน',
-          context: 'การรับสิทธิ การใช้งานแอปพลิเคชั่น “เป๋าตัง” และ “ถุงเงิน”<br>ติดต่อ ชิมช้อปใช้ Call Center by Krungthai <a class="nowrap" href="tel:021111144" style="color:#333333">โทร.0 2111 1144</a>'
+          context: 'การรับสิทธิ การใช้งานแอปพลิเคชั่น <span class="nowrap">“เป๋าตัง” และ “ถุงเงิน”</span><br>ติดต่อ ชิมช้อปใช้ Call Center by Krungthai <a class="nowrap" href="tel:021111144" style="color:#333333">โทร.0 2111 1144</a>'
         },
         {
           title: 'ข้อมูลลงทะเบียนผู้ประกอบการ',

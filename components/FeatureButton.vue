@@ -2,16 +2,16 @@
   <div class="feature-box">
     <p>ตั้งแต่วันที่</p>
     <!-- Desktop -->
-    <h1 class="feature-duration is-hidden-mobile">27 ก.ย. - 31 ธ.ค. 62</h1>
+    <h1 class="feature-duration is-hidden-mobile">{{durationText}}</h1>
     <!-- Mobile -->
-    <h1 class="feature-duration is-hidden-desktop is-hidden-tablet-only" style="font-size: 30px;">{{durationText}}</h1>
+    <h1 class="feature-duration is-hidden-desktop is-hidden-tablet-only" style="font-size: 28px;">{{durationText}}</h1>
     
     <div style="position:relative">
       <a :href="buttonHref">
         <!-- Desktop -->
         <div class="feature-button is-hidden-mobile"><span v-html="buttonText"></span></div>
         <!-- Mobile -->
-        <div class="feature-button is-hidden-desktop is-hidden-tablet-only" style="font-size: 16px; width:90%"><span v-html="buttonText"></span></div>
+        <div class="feature-button is-hidden-desktop is-hidden-tablet-only" style="font-size: 14px; width:90%"><span v-html="buttonText"></span></div>
       </a>
       <!-- Backgrounf line -->
       <div class="is-hidden-mobile" style="width: 98%; background-color: grey; height: 1px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); z-index: -1; opacity: 0.3;"></div>
@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       durationText: 'Loading...',
-      buttonText: 'ลงทะเบียน เฟส 2<br>ตั้งแต่วันที่ 24 ต.ค.62 วันละ 2 รอบ เวลา 6.00 และ 18.00 น.<br>(จำกัดจำนวนผู้ลงทะเบียนรอบละ 5 แสนคน รวม 1 ล้านคนต่อวัน)',
+      buttonText: 'ลงทะเบียน เฟส 2<br>ตั้งแต่วันที่ 24 ต.ค.62 วันละ 2 รอบ <span class="nowrap">เวลา 6.00 และ 18.00 น.</span><br>(จำกัดจำนวนผู้ลงทะเบียนรอบละ 5 แสนคน <span class="nowrap">รวม 1 ล้านคนต่อวัน)</span>',
       buttonHref: 'https://regist.ชิมช้อปใช้.com/Register/',
     }
   },

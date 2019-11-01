@@ -6,7 +6,7 @@
     <FeatureButton :duration="duration" />
     <div class="container">
       <!-- Content -->
-      <div style="padding:30px 70px">
+      <div style="padding:30px 40px">
         <!-- Title -->
         <!-- Desktop -->
         <div class="content-title is-hidden-mobile" v-html="titleText" />
