@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-font">
+  <div class="custom-font" style="overflow:hidden">
     <NavBar :items="navItems" />
     <div style="height:64px" />
     <Banner />
