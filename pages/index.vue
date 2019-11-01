@@ -4,9 +4,10 @@
     <div style="height:64px" />
     <Banner />
     <FeatureButton :duration="duration" />
-
-    <ContactInfo />
-    <BrandLogo />
+    <div class="container">
+      <ContactInfo />
+      <BrandLogo />
+    </div>
     <InfoFooter />
     <Footer :items="navItems" />
     <div class="container">

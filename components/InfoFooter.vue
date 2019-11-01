@@ -1,12 +1,14 @@
 <template>
   <div class="info-footer">
-    <div class="columns">
-      <div class="column">
-        <img src="~/assets/logo.png" width="108" />
-      </div>
-      <div v-for="info in infos" class="column">
-        <div class="info-title">{{info.title}}</div>
-        <div class="info-context" v-html="info.context"/>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <img src="~/assets/logo.png" width="108" />
+        </div>
+        <div v-for="info in infos" class="column">
+          <div class="info-title">{{info.title}}</div>
+          <div class="info-context" v-html="info.context"/>
+        </div>
       </div>
     </div>
   </div>

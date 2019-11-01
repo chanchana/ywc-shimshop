@@ -1,11 +1,13 @@
 <template>
   <div class="footer">
-    <div class="columns">
-      <div class="column">
-        <p>Copyright © 2003-2019</p>
-      </div>
-      <div v-for="item in navItems" class="column">
-        <a :href="item.href" style="color:white">{{item.label}}</a>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <p>Copyright © 2003-2019</p>
+        </div>
+        <div v-for="item in navItems" class="column">
+          <a :href="item.href" style="color:white">{{item.label}}</a>
+        </div>
       </div>
     </div>
   </div>
