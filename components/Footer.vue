@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style scoped>
 .footer {
   background-color: #213A8F;
   font-weight: bold;

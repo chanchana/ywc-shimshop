@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 .feature-box {
   text-align: center;
   margin: 26px 0px;

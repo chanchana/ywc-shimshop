@@ -3,8 +3,10 @@
     <NavBar :items="navItems" />
     <div style="height:64px" />
     <Banner />
-    <FeatureButton :duration="duration"/>
+    <FeatureButton :duration="duration" />
 
+    <BrandLogo />
+    <InfoFooter />
     <Footer :items="navItems" />
     <div class="container">
       <h1>TestJa</h1>res data
@@ -18,12 +20,14 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-import NavBar from "~/components/NavBar.vue";
-import Banner from "~/components/Banner.vue";
+import Logo from "~/components/Logo.vue"
+import NavBar from "~/components/NavBar.vue"
+import Banner from "~/components/Banner.vue"
 import FeatureButton from "~/components/FeatureButton.vue"
+import BrandLogo from "~/components/BrandLogo.vue"
+import InfoFooter from "~/components/InfoFooter.vue"
 import Footer from "~/components/Footer.vue"
-import axios from "axios";
+import axios from "axios"
 
 export default {
   components: {
@@ -31,6 +35,8 @@ export default {
     NavBar,
     Banner,
     FeatureButton,
+    BrandLogo,
+    InfoFooter,
     Footer,
   },
   data() {
@@ -56,9 +62,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
 .custom-font {
   font-family: 'Prompt', sans-serif;
+}
+.nowrap {
+  white-space: nowrap;
 }
 </style>

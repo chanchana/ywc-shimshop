@@ -1,17 +1,17 @@
 <template>
   <div>
     <!-- Desktop -->
-    <div class="is-hidden-mobile nav-size-shadow " style="position:fixed; width:100%;text-align: center;background-color:white;z-index:10;height:64px">
+    <div class="is-hidden-mobile nav-shadow " style="position:fixed; width:100%;text-align: center;background-color:white;z-index:10;height:64px">
       <a v-for="item in navItems" :href="item.href" class="link hvr-underline-from-center">
         {{item.label}}
       </a>
     </div>
 
     <!-- Mobile -->
-    <nav class="navbar nav-size-shadow is-fixed-top is-hidden-desktop is-hidden-tablet-only" role="navigation" aria-label="main navigation" style="height:64px;">
+    <nav class="navbar nav-shadow is-fixed-top is-hidden-desktop is-hidden-tablet-only" role="navigation" aria-label="main navigation" style="height:64px;">
       <div class="navbar-brand">
         <a style="height:64px;padding:8px 16px;">
-          <img src="~/assets/navlogo.png" style="height:48px;" />
+          <img src="~/assets/logo.png" style="height:48px;" />
         </a>
 
         <a v-on:click="onClickMenu" role="button" :class="`navbar-burger ${menuClassActive}`" aria-label="menu" aria-expanded="true" style="height:64px;">
