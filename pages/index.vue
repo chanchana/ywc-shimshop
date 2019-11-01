@@ -27,19 +27,10 @@
     </div>
     <InfoFooter />
     <Footer :items="navItems" />
-    <div class="container">
-      <h1>TestJa</h1>res data
-      <p>{{resData}}</p>
-      <p>{{resData}}</p>
-      <p>{{resData}}</p>
-      <p>{{resData}}</p>navbaritem
-      <p>{{navItems}}</p>
-    </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue"
 import NavBar from "~/components/NavBar.vue"
 import Banner from "~/components/Banner.vue"
 import FeatureButton from "~/components/FeatureButton.vue"
@@ -51,7 +42,6 @@ import axios from "axios"
 
 export default {
   components: {
-    Logo,
     NavBar,
     Banner,
     FeatureButton,
