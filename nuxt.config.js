@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -57,5 +58,5 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
 }
