@@ -36,7 +36,6 @@ export default {
   data() {
     return {
       navItems: [],
-      ready: false,
       menuIsActive: false,
     };
   },
@@ -94,7 +93,7 @@ export default {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #233d8d;
+  background: #213A8F;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;

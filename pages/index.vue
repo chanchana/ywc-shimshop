@@ -1,11 +1,11 @@
 <template>
   <div class="custom-font">
-    <NavBar :items="navItems" text="yay!" />
+    <NavBar :items="navItems" />
     <div style="height:64px" />
     <Banner />
     <FeatureButton :duration="duration"/>
 
-
+    <Footer :items="navItems" />
     <div class="container">
       <h1>TestJa</h1>res data
       <p>{{resData}}</p>
@@ -22,6 +22,7 @@ import Logo from "~/components/Logo.vue";
 import NavBar from "~/components/NavBar.vue";
 import Banner from "~/components/Banner.vue";
 import FeatureButton from "~/components/FeatureButton.vue"
+import Footer from "~/components/Footer.vue"
 import axios from "axios";
 
 export default {
@@ -30,6 +31,7 @@ export default {
     NavBar,
     Banner,
     FeatureButton,
+    Footer,
   },
   data() {
     return {
